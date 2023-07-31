@@ -23,7 +23,7 @@ class WilmaAPI {
         }));
     }
 
-    async handleLogin() {
+    async login() {
         // TODO full explanation
         // 1. Get the login page
         const loginPage = await this.client.get(this.baseURL);
