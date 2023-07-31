@@ -1,0 +1,28 @@
+{
+  "name": "wilma-npm",
+  "version": "0.0.1",
+  "description": "npm package for interacting with Turku's Wilma",
+  "main": "wilma.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juhanias/wilma-npm.git"
+  },
+  "keywords": [
+    "wilma"
+  ],
+  "author": "juhanias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juhanias/wilma-npm/issues"
+  },
+  "homepage": "https://github.com/juhanias/wilma-npm#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "axios-cookiejar-support": "^4.0.7",
+    "cheerio": "^1.0.0-rc.12",
+    "tough-cookie": "^4.1.3"
+  }
+}
